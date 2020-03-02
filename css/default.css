@@ -1,0 +1,35 @@
+p {
+  background-color: yellow;
+  width: 300px;
+  border: 15px solid blue;
+  padding: 50px;
+  margin: 0px;
+}
+
+#fuller {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#fuller td, #fuller th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#fuller tr:nth-child(even){background-color: #f2f2f2;}
+
+#fuller tr:hover {background-color: #ddd;}
+
+#fuller th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.house {
+  width:430px;
+  height:333px;
+}
